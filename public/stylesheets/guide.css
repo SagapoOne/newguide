@@ -1,0 +1,28 @@
+body{
+  overflow: hidden;
+}
+.page-change{
+  width: 100%;
+  padding: 0.48rem 0;
+  height: 5.8rem;
+}
+.page-change ul{
+  width: 67.2rem;
+  position: absolute;
+  left: calc(50% - 12.6rem);
+  transition: 0.6s;
+}
+.page-change ul li{
+  height: 5.8rem;
+  width: 8.4rem;
+  float: left;
+  background-color: red;
+  transform-style: preserve-3d;
+  transform: scale(0.9);
+  border-radius: 0.2rem;
+  transition: 0.6s;
+}
+.page-change ul li.now-page{
+  transform: scale(1);
+  background-color: blue;
+}

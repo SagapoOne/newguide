@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  outline: none;
+}
+html{
+  font-family: 'Microsoft YaHei';
+  font-size: 0%;
+}
+html, body, .full-page{
+  width: 100%;
+  height: 100%;
+}
+a{
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+a::selection{
+  background-color: transparent;
+}
+a::-moz-selection{
+  background-color: transparent;
+}
+a::-webkit-selection{
+  background-color: transparent;
+}
+.clear{
+  clear: both;
+}
