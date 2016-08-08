@@ -6,37 +6,115 @@
   <!-- <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport"/> -->
   <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
   <title></title>
+  <script src="javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/jquery.mobile-1.4.5.min.js"></script>
   <link rel="stylesheet" type="text/css" href="stylesheets/guide.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/public.css">
-  <script type="text/javascript" src="javascripts/guide.js"></script>
-  <script type="text/javascript" src="javascripts/public.js"></script>
 </head>
 <body>
-<div class="container full-page">
+<div class="container full-page" id="container">
   <div class="page-change" id="page-change">
     <ul id="page-change-ul">
-      <li index="0">
-        <a href=""></a>
+      <li index="0" style="width: 8.4rem; background-image: url(../images/culture-bg.png)">
+        <a href="" class="data-image" data-src="../images/culture-icon.png"></a>
       </li>
-      <li index="1" class="now-page">
-        <a href=""></a>
+      <li index="1" style="width: 8.4rem; background-image: url(../images/xz-bg.png)">
+        <a href="" class="data-image" data-src="../images/xz-icon.png"></a>
       </li>
-      <li index="2">
-        <a href=""></a>
+      <li index="2" style="width: 8.4rem; background-image: url(../images/arrangement-bg.png)">
+        <a href="" class="data-image" data-src="../images/arrangement-icon.png"></a>
       </li>
-      <li index="3">
-        <a href=""></a>
+      <li index="3" style="width: 8.4rem; background-image: url(../images/advising-bg.png)">
+        <a href="" class="data-image" data-src="../images/advising-icon.png"></a>
       </li>
-      <li index="4">
-        <a href=""></a>
+      <li index="4" style="width: 8.4rem; background-image: url(../images/culture-bg.png)">
+        <a href="" class="data-image" data-src="../images/culture-icon.png"></a>
       </li>
-      <li index="5">
-        <a href=""></a>
+      <li index="5" style="width: 8.4rem; background-image: url(../images/xz-bg.png)">
+        <a href="" class="data-image" data-src="../images/xz-icon.png"></a>
+      </li>
+      <li index="6" style="width: 8.4rem; background-image: url(../images/arrangement-bg.png)">
+        <a href="" class="data-image" data-src="../images/arrangement-icon.png"></a>
+      </li>
+      <li index="7" style="width: 8.4rem; background-image: url(../images/advising-bg.png)">
+        <a href="" class="data-image" data-src="../images/advising-icon.png"></a>
       </li>
       <div class="clear"></div>
     </ul>
     <div class="clear"></div>
   </div>
+  <div class="page-content" id="page-content">
+    <div class="page-content-1" id="page-content-1" style="margin-top: 0;">
+      <div class="registration-notice page-small-content">
+        <a href="" class="page-content-title data-image" data-src="./images/registration-notice-icon.png">报到须知</a>
+        <ul class="page-content-list page-content-list6">
+          <li class="data-image" page="1" list="1" data-src="./images/must-things-icon.png">必备物资</li>
+          <li class="data-image" page="1" list="2" data-src="./images/traffic-icon.png">到港交通</li>
+          <li class="data-image" page="1" list="3" data-src="./images/dormitory-icon.png">入住宿舍</li>
+          <li class="data-image" page="1" list="4" data-src="./images/malitary-icon.png">军训准备</li>
+          <li class="data-image" page="1" list="5" data-src="./images/test-icon.png">入学考试</li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="find page-small-content">
+        <a href="http://www.ncuos.com/index/app_zzbd" class="page-content-title data-image open-site" data-src="./images/find-icon.png">个人信息查询</a>
+      </div>
+      <div class="kongtiao page-small-content">
+        <a href="" class="page-content-title data-image" data-src="./images/kongtiao-icon.png">空调预定</a>
+      </div>
+    </div>
+    <div class="page-content-2" id="page-content-2" style="margin-top: 0;">
+      <div class="study-advising page-small-content">
+        <ul class="page-content-list page-content-list4">
+          <li class="data-image" page="2" list="1" data-src="./images/change-obj-icon.png">转专业</li>
+          <li class="data-image" page="2" list="2" data-src="./images/degree-icon.png">双学位、辅修</li>
+          <li class="data-image" page="2" list="3" data-src="./images/scholarship-grants-icon.png">奖助学金</li>
+          <li class="data-image" page="2" list="4" data-src="./images/subsidy-icon.png">贫困生补助</li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </div>
+    <div class="page-content-3" id="page-content-3" style="margin-top: 0;">
+      <div class="page-small-content">
+        <a href="" class="page-content-title data-image" style="color: #fd8e7e;" page="5" list="1" data-src="./images/school-icon.png">学校概况</a>
+      </div>
+      <div class="zuzhi page-small-content">
+        <a href="" class="page-content-title data-image" style="color: #fd8e7e;" page="5" list="2" data-src="./images/zuzhi-icon.png">社团组织</a>
+        <ul class="page-content-list page-content-list6">
+          <li class="data-image" page="3" list="1" data-src="./images/ncuhome-icon.png"></li>
+          <li class="data-image" page="3" list="2" data-src="./images/ay-icon.png"></li>
+          <li class="data-image" page="3" list="3" data-src="./images/dst-icon.png"></li>
+          <li class="data-image" page="3" list="4" data-src="./images/xt-icon.png"></li>
+          <li class="data-image" page="3" list="5" data-src="./images/xf-icon.png"></li>
+          <li class="data-image" page="3" list="6" data-src="./images/zj-icon.png"></li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+      <div class="page-small-content">
+        <a href="" class="page-content-title data-image open-site" style="color: #fd8e7e;text-align:center;padding-right:0.93rem;background-position: 3rem center;background-size: 0.74rem;" data-src="./images/logo.png">加入我们</a>
+      </div>
+    </div>
+    <div class="page-content-4" id="page-content-4" style="margin-top: 0;">
+      <div class="happy-xz page-small-content">
+        <ul class="page-content-list page-content-list4">
+          <li class="data-image" page="4" list="1" data-src="./images/canteen-icon.png">食堂体验</li>
+          <li class="data-image" page="4" list="2" data-src="./images/leisure-traffic-icon.png">休闲交通</li>
+          <li class="data-image" page="4" list="3" data-src="./images/bank-icon.png">银行</li>
+          <li class="data-image" page="4" list="4" data-src="./images/express-icon.png">快递</li>
+          <div class="clear"></div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="mengban" id="mengban">
+  <div id="close-btn"></div>
+  <div class="word-content" id="word-content">
+    
+  </div>
 </div>
 </body>
+<script type="text/javascript" src="javascripts/words.js"></script>
+<script type="text/javascript" src="javascripts/public.js"></script>
+<script type="text/javascript" src="javascripts/guide.js"></script>
 </html>

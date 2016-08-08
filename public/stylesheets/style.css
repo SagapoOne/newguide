@@ -32,7 +32,8 @@
   border-radius: 0.48rem;
   position: absolute;
   bottom: 15%;
-  left: calc(50% - 1.96rem);
+  left: 50%;
+  margin-left: -1.7rem;
   transition: opacity 0.6s;
 }
 .start-page-btn .arrow{
@@ -101,7 +102,8 @@
   background-size: 0.72rem 0.72rem;
   position: absolute;
   bottom: 0.15rem;
-  left: calc(50% - 2.225rem);
+  left: 50%;
+  margin-left: -2.15rem;
 }
 
 @media only screen and (min-width: 320px) {
